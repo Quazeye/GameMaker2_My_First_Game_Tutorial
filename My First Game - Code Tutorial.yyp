@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1013c80c-c4ed-44c4-814d-a0525af3cbbf",
+            "Value": {
+                "id": "d5bd3428-6ea3-47af-84fd-d47a2ebd9fdf",
+                "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19a6e5e0-b9af-49e5-84aa-03db8ddfcfd7",
             "Value": {
                 "id": "64ae1ea3-2db9-48be-97a3-17e692de2495",
@@ -140,6 +148,14 @@
                 "id": "204db757-fbec-462b-af23-b644258fb799",
                 "resourcePath": "rooms\\rm_title\\rm_title.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "59960608-c5b2-4759-a730-50ce3f62097a",
+            "Value": {
+                "id": "718c28c4-0d67-4d40-b0a7-5dffbb6425f1",
+                "resourcePath": "objects\\obj_enemyspawn\\obj_enemyspawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
