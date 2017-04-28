@@ -12,6 +12,7 @@ if (mouse_check_button(mb_left)&& cooldown < 1) {
 	cooldown = 10;
 }
 
+
 cooldown = cooldown - 1;
 
 
@@ -29,4 +30,3 @@ if (instance_exists(incoming_Enemy)) {
 	soundLength = soundLength - 1;
 
 }
-
