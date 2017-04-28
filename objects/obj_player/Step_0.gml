@@ -11,4 +11,22 @@ if (mouse_check_button(mb_left)&& cooldown < 1) {
 	instance_create_layer(x, y, "BulletsLayer", obj_bullet);
 	cooldown = 10;
 }
+
 cooldown = cooldown - 1;
+
+
+incoming_Enemy = instance_place(x,y, obj_enemy);
+
+if (instance_exists(incoming_Enemy)) {
+	if (!soundPlayed){
+		audio_play_sound(snd_playerDeath,1,false);
+		soundPlayed = true;
+		
+	}
+	if (soundLength <= 0) {
+		game_restart();
+	}
+	soundLength = soundLength - 1;
+
+}
+
